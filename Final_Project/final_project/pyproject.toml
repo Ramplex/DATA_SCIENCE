@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wine_quality_prediction"
+version = "0.1.0"
+description = "Predict the quality of wine using regression based on wine properties."
+authors = ["Tu Nombre <tuemail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+joblib = "^1.4.2"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.5"
+imbalanced-learn = "^0.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
