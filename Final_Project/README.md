@@ -34,13 +34,18 @@ The dataset used for this project is a wine quality dataset, typically available
 - Quality (target variable)
 
 ## Project Structure
-
+```sh
 wine-quality-prediction/
 │
 ├── data/
 │ ├── train.csv
 │ ├── user_data.csv
 │ └── inventory.csv
+│
+├── docs/
+│ ├── WineQuality - Paper.pdf
+│ ├── WineQuality - Poster.pdf
+│ └── WineQuality - Report.pdf
 │
 ├── notebooks/
 │ ├── EDA.ipynb
@@ -59,6 +64,8 @@ wine-quality-prediction/
 │
 ├── README.md
 └── requirements.txt
+```
+
 ## Usage
 
 First, open the console inside the `final_project` folder. Then, execute the following commands to start the poetry virtual environment, optionally retrain the model, and launch the graphical user interface:
