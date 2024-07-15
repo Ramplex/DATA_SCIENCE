@@ -42,6 +42,11 @@ wine-quality-prediction/
 │ ├── user_data.csv
 │ └── inventory.csv
 │
+├── docs/
+│ ├── WineQuality - Paper.pdf
+│ ├── WineQuality - Poster.pdf
+│ └── WineQuality - Report.pdf
+│
 ├── notebooks/
 │ ├── EDA.ipynb
 │
